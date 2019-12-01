@@ -1,0 +1,852 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>鱼家坊</title>
+    <link rel="stylesheet" href="./pablick/swiper.min.css">
+    <link rel="stylesheet" href="./pablick/materialize.css">
+    <link rel="stylesheet" href="./pablick/loaders.css">
+    <link rel="stylesheet" href="./pablick/line-awesome.css">
+    <link rel="stylesheet" href="./pablick/line-awesome-font-awesome.css">
+    <link rel="stylesheet" href="./pablick/owl.carousel.min.css">
+    <link rel="stylesheet" href="./pablick/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./pablick/style.css">
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <!-- https://jsdaima.hu-cheng.net/2018/09/1006/index.html -->
+    <!-- preloader -->
+    <div class="preloader" style="display: none;">
+        <div class="spinner"></div>
+    </div>
+    <!-- end preloader -->
+
+    <!-- navbar -->
+    <div class="navbar" style="box-shadow: none;box-shadow: rgba(0, 0, 0, 0.13) 0px 0px 13px;    ">
+        <div class="container" style="text-align: center;font-size: 19px;color: #000;font-weight: 900;">
+            鱼家坊
+        </div>
+    </div>
+    <!-- end navbar -->
+
+    <!-- sidebar -->
+    <!-- <div class="sidebar-panel">
+        <ul id="slide-out" class="collapsible side-nav" style="transform: translateX(-100%);">
+            <li>
+                <div class="user-view">
+                    <div class="background">
+                        <img src="./pablick/blog3.jpg" alt="">
+                    </div>
+                    <img class="circle responsive-img" src="./pablick/profile.png" alt="">
+                    <span class="white-text name">www.jsdaima.com</span>
+                </div>
+            </li>
+            <li><a href="https://jsdaima.hu-cheng.net/2018/09/1006/index.html"><i class="fa fa-home"></i>Home</a></li>
+            <li>
+                <div class="collapsible-header">
+                    <i class="fa fa-female"></i>Product<span><i class="fa fa-angle-right right"></i></span>
+                </div>
+                <div class="collapsible-body">
+                    <ul>
+                        <li><a href="https://jsdaima.hu-cheng.net/2018/09/1006/product.html">Product</a></li>
+                        <li><a href="https://jsdaima.hu-cheng.net/2018/09/1006/product-list.html">Product List</a></li>
+                        <li><a href="https://jsdaima.hu-cheng.net/2018/09/1006/product-details.html">Product Details</a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <div class="collapsible-header">
+                    <i class="fa fa-shopping-cart"></i>Shop Pages<span><i class="fa fa-angle-right right"></i></span>
+                </div>
+                <div class="collapsible-body">
+                    <ul>
+                        <li><a href="https://jsdaima.hu-cheng.net/2018/09/1006/cart.html">Cart</a></li>
+                        <li><a href="https://jsdaima.hu-cheng.net/2018/09/1006/categories.html">Categories</a></li>
+                        <li><a href="https://jsdaima.hu-cheng.net/2018/09/1006/wishlist.html">Wishlist</a></li>
+                        <li><a href="https://jsdaima.hu-cheng.net/2018/09/1006/checkout.html">Checkout</a></li>
+                        <li><a href="https://jsdaima.hu-cheng.net/2018/09/1006/profile.html">Profile</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <div class="collapsible-header">
+                    <i class="fa fa-rss"></i>Blog<span><i class="fa fa-angle-right right"></i></span>
+                </div>
+                <div class="collapsible-body">
+                    <ul>
+                        <li><a href="https://jsdaima.hu-cheng.net/2018/09/1006/blog.html">Blog</a></li>
+                        <li><a href="https://jsdaima.hu-cheng.net/2018/09/1006/blog-single.html">Blog Single</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <div class="collapsible-header">
+                    <i class="fa fa-file"></i>Pages<span><i class="fa fa-angle-right right"></i></span>
+                </div>
+                <div class="collapsible-body">
+                    <ul>
+                        <li><a href="https://jsdaima.hu-cheng.net/2018/09/1006/about.html">About</a></li>
+                        <li><a href="https://jsdaima.hu-cheng.net/2018/09/1006/contact.html">Contact</a></li>
+                        <li><a href="https://jsdaima.hu-cheng.net/2018/09/1006/page-not-found.html">Page Not Found</a>
+                        </li>
+                        <li><a href="https://jsdaima.hu-cheng.net/2018/09/1006/settings.html">Settings</a></li>
+                        <li><a href="https://jsdaima.hu-cheng.net/2018/09/1006/sign-up.html">Sign Up</a></li>
+                        <li><a href="https://jsdaima.hu-cheng.net/2018/09/1006/sign-in.html">Sign In</a></li>
+                        <li><a href="https://jsdaima.hu-cheng.net/2018/09/1006/team.html">Team</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="https://jsdaima.hu-cheng.net/2018/09/1006/contact.html"><i class="fa fa-envelope-o"></i>Contact
+                    Us</a></li>
+            <li><a href="https://jsdaima.hu-cheng.net/2018/09/1006/sign-in.html"><i class="fa fa-sign-in"></i>Sign
+                    In</a></li>
+            <li><a href="https://jsdaima.hu-cheng.net/2018/09/1006/sign-up.html"><i class="fa fa-user-plus"></i>Sign
+                    Up</a></li>
+            <li><a href="https://jsdaima.hu-cheng.net/2018/09/1006/index.html"><i class="fa fa-share"></i>Log Out</a>
+            </li>
+        </ul>
+    </div> -->
+    <!-- end sidebar -->
+
+    <!-- sidebar -->
+    <div class="sidebar-panel sidebar-search">
+        <ul id="slide-out-right" class="collapsible side-nav right-aligned" style="transform: translateX(100%);">
+            <li>
+                <div class="form">
+                    <input type="search">
+                    <button class="button"><i class="fa fa-search"></i></button>
+                </div>
+                <div class="clear"></div>
+            </li>
+            <li>
+                <h5>Popular Search</h5>
+            </li>
+            <li><a href="https://jsdaima.hu-cheng.net/2018/09/1006/">Football</a></li>
+            <li><a href="https://jsdaima.hu-cheng.net/2018/09/1006/">Lemon</a></li>
+            <li><a href="https://jsdaima.hu-cheng.net/2018/09/1006/">Canon</a></li>
+            <li><a href="https://jsdaima.hu-cheng.net/2018/09/1006/">Laptop</a></li>
+            <li><a href="https://jsdaima.hu-cheng.net/2018/09/1006/">Pizza</a></li>
+            <li><a href="https://jsdaima.hu-cheng.net/2018/09/1006/">Sport</a></li>
+        </ul>
+    </div>
+    <!-- end sidebar -->
+
+    <!-- sidebar cart -->
+    <!-- <div class="sidebar-panel sidebar-cart">
+        <div id="slide-out-cart" class="collapsible side-nav right-aligned" style="transform: translateX(100%);">
+            <div class="content">
+                <div class="cart-img">
+                    <img src="./pablick/product1.jpg" alt="">
+                </div>
+                <div class="cart-title">
+                    <a href="https://jsdaima.hu-cheng.net/2018/09/1006/">Casual Clothes in a Modern Style</a>
+                    <h5>$28</h5>
+                </div>
+                <div class="cart-remove">
+                    <a href="https://jsdaima.hu-cheng.net/2018/09/1006/"><i class="fa fa-remove"></i></a>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="content">
+                <div class="cart-img">
+                    <img src="./pablick/product2.jpg" alt="">
+                </div>
+                <div class="cart-title">
+                    <a href="https://jsdaima.hu-cheng.net/2018/09/1006/">Trendy Headband Style in 2018</a>
+                    <h5>$11</h5>
+                </div>
+                <div class="cart-remove">
+                    <a href="https://jsdaima.hu-cheng.net/2018/09/1006/"><i class="fa fa-remove"></i></a>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="content">
+                <div class="cart-img">
+                    <img src="./pablick/product3.jpg" alt="">
+                </div>
+                <div class="cart-title">
+                    <a href="https://jsdaima.hu-cheng.net/2018/09/1006/">Shoes that Light up When Dark</a>
+                    <h5>$32</h5>
+                </div>
+                <div class="cart-remove">
+                    <a href="https://jsdaima.hu-cheng.net/2018/09/1006/"><i class="fa fa-remove"></i></a>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="cart-button">
+                <ul>
+                    <li>
+                        <button class="button"><i class="fa fa-shopping-cart"></i>View Cart</button>
+                    </li>
+                    <li>
+                        <button class="button"><i class="fa fa-send"></i>Checkout</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div> -->
+    <!-- end sidebar cart -->
+
+    <!-- slide -->
+    <div class="container" id="swiper">
+        <div class="slide">
+            <div class="swiper-container" style="height:100%;">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="./yu/images/banner1.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./yu/images/banner2.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./yu/images/banner3.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./yu/images/banner4.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./yu/images/banner5.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./yu/images/banner6.jpg" alt="">
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+            <!-- <div class="slide-show owl-carousel owl-theme owl-loaded owl-drag">
+
+
+
+                <div class="owl-stage-outer">
+                    <div class="owl-stage"
+                        style="transform: translate3d(-1042px, 0px, 0px); transition: all 0.25s ease 0s; width: 2433px;">
+                        <div class="owl-item cloned" style="width: 337.5px; margin-right: 10px;">
+                            <div class="slide-content second-slide">
+                                <div class="mask2"></div>
+                                <img src="./pablick/slider3.jpg" alt="">
+                                <div class="caption">
+                                    <h2>New Fashion Style</h2>
+                                    <p>Mobile Template</p>
+                                    <button class="button">Shop Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="owl-item cloned" style="width: 337.5px; margin-right: 10px;">
+                            <div class="slide-content third-slide">
+                                <div class="mask2"></div>
+                                <img src="./pablick/slider3.jpg" alt="">
+                                <div class="caption">
+                                    <h2>Comfortable Shoes</h2>
+                                    <p>Mobile Template</p>
+                                    <button class="button">Shop Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="owl-item" style="width: 337.5px; margin-right: 10px;">
+                            <div class="slide-content first-slide">
+                                <div class="mask2"></div>
+                                <img src="./pablick/slider3.jpg" alt="">
+                                <div class="caption">
+                                    <h2>Welcome to Mall</h2>
+                                    <p>Mobile Template</p>
+                                    <button class="button">Contact Us</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="owl-item active" style="width: 337.5px; margin-right: 10px;">
+                            <div class="slide-content second-slide">
+                                <div class="mask2"></div>
+                                <img src="./pablick/slider3.jpg" alt="">
+                                <div class="caption">
+                                    <h2>New Fashion Style</h2>
+                                    <p>Mobile Template</p>
+                                    <button class="button">Shop Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="owl-item" style="width: 337.5px; margin-right: 10px;">
+                            <div class="slide-content third-slide">
+                                <div class="mask2"></div>
+                                <img src="./pablick/slider2.jpg" alt="">
+                                <div class="caption">
+                                    <h2>Comfortable Shoes</h2>
+                                    <p>Mobile Template</p>
+                                    <button class="button">Shop Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="owl-item cloned" style="width: 337.5px; margin-right: 10px;">
+                            <div class="slide-content first-slide">
+                                <div class="mask2"></div>
+                                <img src="./pablick/slider1.jpg" alt="">
+                                <div class="caption">
+                                    <h2>Welcome to Mall</h2>
+                                    <p>Mobile Template</p>
+                                    <button class="button">Contact Us</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="owl-item cloned" style="width: 337.5px; margin-right: 10px;">
+                            <div class="slide-content second-slide">
+                                <div class="mask2"></div>
+                                <img src="./pablick/slider3.jpg" alt="">
+                                <div class="caption">
+                                    <h2>New Fashion Style</h2>
+                                    <p>Mobile Template</p>
+                                    <button class="button">Shop Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="owl-nav disabled">
+                    <div class="owl-prev">prev</div>
+                    <div class="owl-next">next</div>
+                </div>
+                <div class="owl-dots">
+                    <div class="owl-dot"><span></span></div>
+                    <div class="owl-dot active"><span></span></div>
+                    <div class="owl-dot"><span></span></div>
+                </div>
+            </div> -->
+        </div>
+    </div>
+    <!-- end slide -->
+
+    <!-- category -->
+    <div class="category segments">
+        <div class="container">
+            <div class="row">
+                <div class="col s3">
+                    <div class="content">
+                        <a href="javascript:void(0);">
+                            <i class="fa fa-car"></i>
+                            <span>Automotive</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col s3">
+                    <div class="content">
+                        <a href="javascript:void(0);">
+                            <i class="fa fa-cutlery"></i>
+                            <span>Food</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col s3">
+                    <div class="content">
+                        <a href="javascript:void(0);">
+                            <i class="fa fa-camera-retro"></i>
+                            <span>Camera</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col s3">
+                    <div class="content">
+                        <a href="javascript:void(0);">
+                            <i class="fa fa-futbol-o"></i>
+                            <span>sport</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s3">
+                    <div class="content">
+                        <a href="javascript:void(0);">
+                            <i class="fa fa-female"></i>
+                            <span>Fashion</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col s3">
+                    <div class="content">
+                        <a href="javascript:void(0);">
+                            <i class="fa fa-cubes"></i>
+                            <span>Toy</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col s3">
+                    <div class="content">
+                        <a href="javascript:void(0);">
+                            <i class="fa fa-plug"></i>
+                            <span>Electronic</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col s3">
+                    <div class="content">
+                        <a href="javascript:void(0);">
+                            <i class="fa fa-lemon-o"></i>
+                            <span>Fruit</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end category -->
+
+    <!-- b-seller -->
+    <div class="b-seller segments">
+        <div class="container">
+            <div class="section-title">
+                <h3>甜心酥饼</h3>
+            </div>
+
+            <div class="ui_box">
+                <a href="./detail.html?id=0" class="ui_son">
+                    <div class="image">
+                        <div style="height: 175.839px;width:100%;">
+                            <img src="./yu/images/list1.jpg"
+                                class="son_img" />
+                        </div>
+                        <div data-v-0ba44fba="" class="cu-tag bg-blue">折扣</div>
+                        <!-- <div data-v-0ba44fba="" class="cu-bar bg-shadeBottom">
+                            <div data-v-0ba44fba="" class="text-cut">
+                                <span>高级巧克力蛋糕，内含草莓、南瓜、玫瑰花等多种材料精制而成。</span></div>
+                        </div> -->
+                    </div>
+
+                    <div data-v-0ba44fba="" class="cu-list menu-avatar">
+                        <div data-v-0ba44fba="" class="cu-item">
+                            <div data-v-0ba44fba="" class="cu-avatar round lg"
+                                style="background-image: url(./static/images/wxImg1.jpg);">
+                            </div>
+                            <div data-v-0ba44fba="" class="content flex-sub">
+                                <div data-v-0ba44fba="" class="text-grey flp">蛋黄酥 6个一盒</div>
+                                <div data-v-0ba44fba="" class="text-gray text-sm flex justify-between">新开张优惠
+                                    
+                                </div>
+                            </div>
+                            <div data-v-0ba44fba="" class="frp">
+                                46元
+                            </div>
+                        </div>
+                    </div>
+
+                </a>
+                <a href="./detail.html?id=1" class="ui_son">
+                    <div class="image">
+                        <div style="height: 175.839px;width:100%;">
+                            <img src="./yu/images/list2.jpg"
+                                class="son_img" />
+                        </div>
+                        <div data-v-0ba44fba="" class="cu-tag bg-blue">折扣</div>
+                        <!-- <div data-v-0ba44fba="" class="cu-bar bg-shadeBottom">
+                            <div data-v-0ba44fba="" class="text-cut">
+                                <span>高级巧克力蛋糕，内含草莓、南瓜、玫瑰花等多种材料精制而成。</span></div>
+                        </div> -->
+                    </div>
+
+                    <div data-v-0ba44fba="" class="cu-list menu-avatar">
+                        <div data-v-0ba44fba="" class="cu-item">
+                            <div data-v-0ba44fba="" class="cu-avatar round lg"
+                                style="background-image: url(./static/images/wxImg1.jpg);">
+                            </div>
+                            <div data-v-0ba44fba="" class="content flex-sub">
+                                <div data-v-0ba44fba="" class="text-grey flp">老婆饼 四个一盒</div>
+                                <div data-v-0ba44fba="" class="text-gray text-sm flex justify-between">新开张优惠
+                                    
+                                </div>
+                            </div>
+                            <div data-v-0ba44fba="" class="frp">
+                                18元
+                            </div>
+                        </div>
+                    </div>
+
+                </a>
+                <a href="./detail.html?id=2" class="ui_son">
+                    <div class="image">
+                        <div style="height: 175.839px;width:100%;">
+                            <img src="./yu/images/list3.jpg"
+                                class="son_img" />
+                        </div>
+                        <div data-v-0ba44fba="" class="cu-tag bg-blue">折扣</div>
+                        <!-- <div data-v-0ba44fba="" class="cu-bar bg-shadeBottom">
+                            <div data-v-0ba44fba="" class="text-cut">
+                                <span>高级巧克力蛋糕，内含草莓、南瓜、玫瑰花等多种材料精制而成。</span></div>
+                        </div> -->
+                    </div>
+
+                    <div data-v-0ba44fba="" class="cu-list menu-avatar">
+                        <div data-v-0ba44fba="" class="cu-item">
+                            <div data-v-0ba44fba="" class="cu-avatar round lg"
+                                style="background-image: url(./static/images/wxImg1.jpg);">
+                            </div>
+                            <div data-v-0ba44fba="" class="content flex-sub">
+                                <div data-v-0ba44fba="" class="text-grey flp">榴莲酥 四个一盒</div>
+                                <div data-v-0ba44fba="" class="text-gray text-sm flex justify-between">新开张优惠
+                                    
+                                </div>
+                            </div>
+                            <div data-v-0ba44fba="" class="frp">
+                                24元
+                            </div>
+                        </div>
+                    </div>
+
+                </a>
+                <a href="./detail.html?id=3" class="ui_son">
+                    <div class="image">
+                        <div style="height: 175.839px;width:100%;">
+                            <img src="./yu/images/list4.jpg"
+                                class="son_img" />
+                        </div>
+                        <div data-v-0ba44fba="" class="cu-tag bg-blue">折扣</div>
+                        <!-- <div data-v-0ba44fba="" class="cu-bar bg-shadeBottom">
+                            <div data-v-0ba44fba="" class="text-cut">
+                                <span>高级巧克力蛋糕，内含草莓、南瓜、玫瑰花等多种材料精制而成。</span></div>
+                        </div> -->
+                    </div>
+
+                    <div data-v-0ba44fba="" class="cu-list menu-avatar">
+                        <div data-v-0ba44fba="" class="cu-item">
+                            <div data-v-0ba44fba="" class="cu-avatar round lg"
+                                style="background-image: url(./static/images/wxImg1.jpg);">
+                            </div>
+                            <div data-v-0ba44fba="" class="content flex-sub">
+                                <div data-v-0ba44fba="" class="text-grey flp">罗马盾牌饼干 一罐220克</div>
+                                <div data-v-0ba44fba="" class="text-gray text-sm flex justify-between">新开张优惠
+                                    
+                                </div>
+                            </div>
+                            <div data-v-0ba44fba="" class="frp">
+                                30元
+                            </div>
+                        </div>
+                    </div>
+
+                </a>
+                <a href="./detail.html?id=4" class="ui_son">
+                    <div class="image">
+                        <div style="height: 175.839px;width:100%;">
+                            <img src="./yu/images/list5.jpg"
+                                class="son_img" />
+                        </div>
+                        <div data-v-0ba44fba="" class="cu-tag bg-blue">折扣</div>
+                        <!-- <div data-v-0ba44fba="" class="cu-bar bg-shadeBottom">
+                            <div data-v-0ba44fba="" class="text-cut">
+                                <span>高级巧克力蛋糕，内含草莓、南瓜、玫瑰花等多种材料精制而成。</span></div>
+                        </div> -->
+                    </div>
+
+                    <div data-v-0ba44fba="" class="cu-list menu-avatar">
+                        <div data-v-0ba44fba="" class="cu-item">
+                            <div data-v-0ba44fba="" class="cu-avatar round lg"
+                                style="background-image: url(./static/images/wxImg1.jpg);">
+                            </div>
+                            <div data-v-0ba44fba="" class="content flex-sub">
+                                <div data-v-0ba44fba="" class="text-grey flp">玛格丽特饼干 一罐220克</div>
+                                <div data-v-0ba44fba="" class="text-gray text-sm flex justify-between">新开张优惠
+                                    
+                                </div>
+                            </div>
+                            <div data-v-0ba44fba="" class="frp">
+                                28元
+                            </div>
+                        </div>
+                    </div>
+
+                </a>
+                <a href="./detail.html?id=5" class="ui_son">
+                    <div class="image">
+                        <div style="height: 175.839px;width:100%;">
+                            <img src="./yu/images/list6.jpg"
+                                class="son_img" />
+                        </div>
+                        <div data-v-0ba44fba="" class="cu-tag bg-blue">折扣</div>
+                        <!-- <div data-v-0ba44fba="" class="cu-bar bg-shadeBottom">
+                            <div data-v-0ba44fba="" class="text-cut">
+                                <span>高级巧克力蛋糕，内含草莓、南瓜、玫瑰花等多种材料精制而成。</span></div>
+                        </div> -->
+                    </div>
+
+                    <div data-v-0ba44fba="" class="cu-list menu-avatar">
+                        <div data-v-0ba44fba="" class="cu-item">
+                            <div data-v-0ba44fba="" class="cu-avatar round lg"
+                                style="background-image: url(./static/images/wxImg1.jpg);">
+                            </div>
+                            <div data-v-0ba44fba="" class="content flex-sub">
+                                <div data-v-0ba44fba="" class="text-grey flp">推推乐 一个6.5元</div>
+                                <div data-v-0ba44fba="" class="text-gray text-sm flex justify-between">新开张优惠
+                                    
+                                </div>
+                            </div>
+                            <div data-v-0ba44fba="" class="frp">
+                                8.5元
+                            </div>
+                        </div>
+                    </div>
+
+                </a>
+                <a href="./detail.html?id=6" class="ui_son">
+                    <div class="image">
+                        <div style="height: 175.839px;width:100%;">
+                            <img src="./yu/images/list7.jpg"
+                                class="son_img" />
+                        </div>
+                        <div data-v-0ba44fba="" class="cu-tag bg-blue">折扣</div>
+                        <!-- <div data-v-0ba44fba="" class="cu-bar bg-shadeBottom">
+                            <div data-v-0ba44fba="" class="text-cut">
+                                <span>雪媚娘  6个一盒 36元，蔓越莓饼干  220克一罐  22元，北海道戚风蛋糕（卡仕达酱）  12元一个</span></div>
+                        </div> -->
+                    </div>
+
+                    <div data-v-0ba44fba="" class="cu-list menu-avatar">
+                        <div data-v-0ba44fba="" class="cu-item">
+                            <div data-v-0ba44fba="" class="cu-avatar round lg"
+                                style="background-image: url(./static/images/wxImg1.jpg);">
+                            </div>
+                            <div data-v-0ba44fba="" class="content flex-sub">
+                                <div data-v-0ba44fba="" class="text-grey flp">雪媚娘、北海道戚风蛋糕</div>
+                                <div data-v-0ba44fba="" class="text-gray text-sm flex justify-between">新开张优惠
+                                    
+                                </div>
+                            </div>
+                            <div data-v-0ba44fba="" class="frp">
+                                20元
+                            </div>
+                        </div>
+                    </div>
+
+                </a>
+                <a href="./detail.html?id=7" class="ui_son">
+                    <div class="image">
+                        <div style="height: 175.839px;width:100%;">
+                            <img src="./yu/images/list8.jpg"
+                                class="son_img" />
+                        </div>
+                        <div data-v-0ba44fba="" class="cu-tag bg-blue">折扣</div>
+                        <!-- <div data-v-0ba44fba="" class="cu-bar bg-shadeBottom">
+                            <div data-v-0ba44fba="" class="text-cut">
+                                <span>雪媚娘  6个一盒 36元，蔓越莓饼干  220克一罐  22元，北海道戚风蛋糕（卡仕达酱）  12元一个</span></div>
+                        </div> -->
+                    </div>
+
+                    <div data-v-0ba44fba="" class="cu-list menu-avatar">
+                        <div data-v-0ba44fba="" class="cu-item">
+                            <div data-v-0ba44fba="" class="cu-avatar round lg"
+                                style="background-image: url(./static/images/wxImg1.jpg);">
+                            </div>
+                            <div data-v-0ba44fba="" class="content flex-sub">
+                                <div data-v-0ba44fba="" class="text-grey flp">桃花酥 一盒6个</div>
+                                <div data-v-0ba44fba="" class="text-gray text-sm flex justify-between">新开张优惠
+                                    
+                                </div>
+                            </div>
+                            <div data-v-0ba44fba="" class="frp">
+                                26元
+                            </div>
+                        </div>
+                    </div>
+
+                </a>
+                
+            </div>
+            <!-- <div class="row">
+                <div class="col s6">
+                    <div class="content">
+                        <div class="image">
+                            <img src="./pablick/images/list1.jpg" alt="">
+                        </div>
+                        <div class="text">
+                            <a href="https://jsdaima.hu-cheng.net/2018/09/1006/product-details.html">
+                                <p>蛋黄酥 6个一盒</p>
+                            </a>
+                            <h5>$36元</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s6">
+                    <div class="content">
+                        <div class="image">
+                            <img src="./pablick/product3.jpg" alt="">
+                        </div>
+                        <div class="text">
+                            <a href="https://jsdaima.hu-cheng.net/2018/09/1006/product-details.html">
+                                <p>Shoes that Light up When Dark</p>
+                            </a>
+                            <h5>$32</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s6">
+                    <div class="content">
+                        <div class="image">
+                            <img src="./pablick/product4.jpg" alt="">
+                        </div>
+                        <div class="text">
+                            <a href="https://jsdaima.hu-cheng.net/2018/09/1006/product-details.html">
+                                <p>Casual Shoes that are Comfortable</p>
+                            </a>
+                            <h5>$19</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s6">
+                    <div class="content">
+                        <div class="image">
+                            <img src="./pablick/product1.jpg" alt="">
+                        </div>
+                        <div class="text">
+                            <a href="https://jsdaima.hu-cheng.net/2018/09/1006/product-details.html">
+                                <p>Casual Clothes in a Modern Style</p>
+                            </a>
+                            <h5>$28</h5>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+    </div>
+    <!-- end b-seller -->
+
+    <!-- banner -->
+    <!-- <div class="banner" hidden="true">
+        <div class="container-fluid">
+            <div class="content">
+                <a href="https://jsdaima.hu-cheng.net/2018/09/1006/"><img src="./pablick/banner.png" alt=""></a>
+            </div>
+        </div>
+    </div> -->
+    <!-- end banner -->
+
+    <!-- product home -->
+    <!-- <div class="product-home segments" hidden="true">
+        <div class="container">
+            <div class="section-title">
+                <h3>Change Your Style</h3>
+            </div>
+            <div class="product-slide owl-carousel owl-theme owl-loaded owl-drag">
+
+
+
+
+                <div class="owl-stage-outer">
+                    <div class="owl-stage"
+                        style="transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s; width: 655px; padding-left: 20px; padding-right: 20px;">
+                        <div class="owl-item active" style="width: 143.75px; margin-right: 10px;">
+                            <div class="content">
+                                <a href="https://jsdaima.hu-cheng.net/2018/09/1006/product-details.html"><img
+                                        src="./pablick/style1.jpg" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="owl-item active" style="width: 143.75px; margin-right: 10px;">
+                            <div class="content">
+                                <a href="https://jsdaima.hu-cheng.net/2018/09/1006/product-details.html"><img
+                                        src="./pablick/style1.jpg" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="owl-item active" style="width: 143.75px; margin-right: 10px;">
+                            <div class="content">
+                                <a href="https://jsdaima.hu-cheng.net/2018/09/1006/product-details.html"><img
+                                        src="./pablick/style1.jpg" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="owl-item active" style="width: 143.75px; margin-right: 10px;">
+                            <div class="content">
+                                <a href="https://jsdaima.hu-cheng.net/2018/09/1006/product-details.html"><img
+                                        src="./pablick/style1.jpg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="owl-nav disabled">
+                    <div class="owl-prev">prev</div>
+                    <div class="owl-next">next</div>
+                </div>
+                <div class="owl-dots disabled"></div>
+            </div>
+            <div class="l-more">
+                <a href="javascript:void(0);">
+                    See More<i class="fa fa-angle-right"></i>
+                </a>
+            </div>
+        </div>
+    </div> -->
+    <!-- end product home -->
+
+    <!-- product home -->
+    <!-- <div class="product-home p-bottom segments" hidden="true">
+        <div class="container">
+            <div class="section-title">
+                <h3>The Best Accessories</h3>
+            </div>
+            <div class="product-slide-two owl-carousel owl-theme owl-loaded owl-drag">
+
+
+
+
+                <div class="owl-stage-outer">
+                    <div class="owl-stage"
+                        style="transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s; width: 655px; padding-left: 20px; padding-right: 20px;">
+                        <div class="owl-item active" style="width: 143.75px; margin-right: 10px;">
+                            <div class="content">
+                                <a href="https://jsdaima.hu-cheng.net/2018/09/1006/product-details.html"><img
+                                        src="./pablick/accessories2.jpg" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="owl-item active" style="width: 143.75px; margin-right: 10px;">
+                            <div class="content">
+                                <a href="https://jsdaima.hu-cheng.net/2018/09/1006/product-details.html"><img
+                                        src="./pablick/accessories1.jpg" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="owl-item" style="width: 143.75px; margin-right: 10px;">
+                            <div class="content">
+                                <a href="https://jsdaima.hu-cheng.net/2018/09/1006/product-details.html"><img
+                                        src="./pablick/accessories3.jpg" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="owl-item" style="width: 143.75px; margin-right: 10px;">
+                            <div class="content">
+                                <a href="https://jsdaima.hu-cheng.net/2018/09/1006/product-details.html"><img
+                                        src="./pablick/accessories4.jpg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="owl-nav disabled">
+                    <div class="owl-prev">prev</div>
+                    <div class="owl-next">next</div>
+                </div>
+                <div class="owl-dots disabled"></div>
+            </div>
+            <div class="l-more">
+                <a href="javascript:void(0);">
+                    See More<i class="fa fa-angle-right"></i>
+                </a>
+            </div>
+        </div>
+    </div> -->
+    <!-- end product home -->
+
+
+    <script src="./pablick/jquery.min.js"></script>
+    <!-- <script src="./pablick/materialize.js"></script>
+    <script src="./pablick/owl.carousel.min.js"></script>
+    <script src="./pablick/main.js"></script> -->
+    <script src="./pablick/swiper.min.js"></script>
+    <script>
+        var mySwiper = new Swiper('.swiper-container', {
+            autoplay: true,//?????????
+            pagination: {
+                el: '.swiper-pagination',
+            },
+        })
+    </script>
+
+</body>
+
+</html>
