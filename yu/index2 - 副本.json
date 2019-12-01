@@ -1,0 +1,204 @@
+{
+    "banner":[
+        {
+            "id": 0,
+            "type": "image",
+            "url": "https://www.xingchen9.com/yu/images/banner1.jpg"
+        },
+        {
+            "id": 1,
+            "type": "image",
+            "url": "https://www.xingchen9.com/yu/images/banner2.jpg"
+        },
+        {
+            "id": 2,
+            "type": "image",
+            "url": "https://www.xingchen9.com/yu/images/banner3.jpg"
+        },
+        {
+            "id": 3,
+            "type": "image",
+            "url": "https://www.xingchen9.com/yu/images/banner4.jpg"
+        },
+        {
+            "id": 4,
+            "type": "image",
+            "url": "https://www.xingchen9.com/yu/images/banner5.jpg"
+        },
+        {
+            "id": 5,
+            "type": "image",
+            "url": "https://www.xingchen9.com/yu/images/banner6.jpg"
+        }
+    ],
+    "list":[
+        {   
+            "name":"蛋黄酥 6个一盒",
+            "price":"36元",
+            "baoyou":"佛山内包邮",
+            "img":"https://www.xingchen9.com/yu/images/list1.jpg",
+            "imgText":"高级巧克力蛋糕，内含草莓、南瓜、玫瑰花等多种材料精制而成。",
+            "shuoming":"现货48小时,预定5-7天",
+            "detail":"<p>美女店长电话：13022041584</p><img src='./yu/images/code.jpg' /><img src='https://www.xingchen9.com/yu/images/list1.jpg' />",
+            "ifPrice":true,
+            "zk":"折扣",
+            "detailName":"商品详情",
+            "meinv":"联系美女店长购买",
+            "imgList":[
+                {
+                    "id": 0,
+                    "type": "image",
+                    "url": "https://www.xingchen9.com/yu/images/list1.jpg"
+                }
+            ]
+        },
+        {   
+            "name":"老婆饼 四个一盒",
+            "price":"10元",
+            "baoyou":"佛山内包邮",
+            "img":"https://www.xingchen9.com/yu/images/list2.jpg",
+            "imgText":"高级巧克力蛋糕，内含草莓、南瓜、玫瑰花等多种材料精制而成。",
+            "shuoming":"现货48小时,预定5-7天",
+            "detail":"<p>美女店长电话：13022041584</p><img src='./yu/images/code.jpg' /><img src='https://www.xingchen9.com/yu/images/list2.jpg' />",
+            "ifPrice":true,
+            "zk":"折扣",
+            "detailName":"商品详情",
+            "meinv":"联系美女店长购买",
+            "imgList":[
+                {
+                    "id": 0,
+                    "type": "image",
+                    "url": "https://www.xingchen9.com/yu/images/list2.jpg"
+                }
+            ]
+        },
+        {   
+            "name":"榴莲酥 四个一盒",
+            "price":"16元",
+            "baoyou":"佛山内包邮",
+            "img":"https://www.xingchen9.com/yu/images/list3.jpg",
+            "imgText":"高级巧克力蛋糕，内含草莓、南瓜、玫瑰花等多种材料精制而成。",
+            "shuoming":"现货48小时,预定5-7天",
+            "detail":"<p>美女店长电话：13022041584</p><img src='./yu/images/code.jpg' /><img src='https://www.xingchen9.com/yu/images/list3.jpg' />",
+            "ifPrice":true,
+            "zk":"折扣",
+            "detailName":"商品详情",
+            "meinv":"联系美女店长购买",
+            "imgList":[
+                {
+                    "id": 0,
+                    "type": "image",
+                    "url": "https://www.xingchen9.com/yu/images/list3.jpg"
+                }
+            ]
+        },
+        {   
+            "name":"罗马盾牌饼干 一罐220克",
+            "price":"22元",
+            "baoyou":"佛山内包邮",
+            "img":"https://www.xingchen9.com/yu/images/list4.jpg",
+            "imgText":"高级巧克力蛋糕，内含草莓、南瓜、玫瑰花等多种材料精制而成。",
+            "shuoming":"现货48小时,预定5-7天",
+            "detail":"<p>美女店长电话：13022041584</p><img src='./yu/images/code.jpg' /><img src='https://www.xingchen9.com/yu/images/list4.jpg' />",
+            "ifPrice":true,
+            "zk":"折扣",
+            "detailName":"商品详情",
+            "meinv":"联系美女店长购买",
+            "imgList":[
+                {
+                    "id": 0,
+                    "type": "image",
+                    "url": "https://www.xingchen9.com/yu/images/list4.jpg"
+                }
+            ]
+        },
+        {   
+            "name":"玛格丽特饼干 一罐220克",
+            "price":"20元",
+            "baoyou":"佛山内包邮",
+            "img":"https://www.xingchen9.com/yu/images/list5.jpg",
+            "imgText":"高级巧克力蛋糕，内含草莓、南瓜、玫瑰花等多种材料精制而成。",
+            "shuoming":"现货48小时,预定5-7天",
+            "detail":"<p>美女店长电话：13022041584</p><img src='./yu/images/code.jpg' /><img src='https://www.xingchen9.com/yu/images/list5.jpg' />",
+            "ifPrice":true,
+            "zk":"折扣",
+            "detailName":"商品详情",
+            "meinv":"联系美女店长购买",
+            "imgList":[
+                {
+                    "id": 0,
+                    "type": "image",
+                    "url": "https://www.xingchen9.com/yu/images/list5.jpg"
+                }
+            ]
+        },
+        {   
+            "name":"推推乐 一个6.5元",
+            "price":"6.5元",
+            "baoyou":"佛山内包邮",
+            "img":"https://www.xingchen9.com/yu/images/list6.jpg",
+            "imgText":"高级巧克力蛋糕，内含草莓、南瓜、玫瑰花等多种材料精制而成。",
+            "shuoming":"现货48小时,预定5-7天",
+            "detail":"<p>美女店长电话：13022041584</p><img src='./yu/images/code.jpg' /><img src='https://www.xingchen9.com/yu/images/list6.jpg' />",
+            "ifPrice":true,
+            "zk":"折扣",
+            "detailName":"商品详情",
+            "meinv":"联系美女店长购买",
+            "imgList":[
+                {
+                    "id": 0,
+                    "type": "image",
+                    "url": "https://www.xingchen9.com/yu/images/list6.jpg"
+                }
+            ]
+        },
+        {   
+            "name":"雪媚娘、蔓越莓饼干、北海道戚风蛋糕",
+            "price":"12元",
+            "baoyou":"佛山内包邮",
+            "img":"https://www.xingchen9.com/yu/images/list7.jpg",
+            "imgText":"雪媚娘  6个一盒 36元，蔓越莓饼干  220克一罐  22元，北海道戚风蛋糕（卡仕达酱）  12元一个",
+            "shuoming":"现货48小时,预定5-7天",
+            "detail":"<p>美女店长电话：13022041584</p><img src='./yu/images/code.jpg' /><img src='https://www.xingchen9.com/yu/images/list7.jpg' />",
+            "ifPrice":true,
+            "zk":"折扣",
+            "detailName":"商品详情",
+            "meinv":"联系美女店长购买",
+            "imgList":[
+                {
+                    "id": 0,
+                    "type": "image",
+                    "url": "https://www.xingchen9.com/yu/images/list7.jpg"
+                }
+            ]
+        },
+        {   
+            "name":"桃花酥 一盒6个",
+            "price":"18元",
+            "baoyou":"佛山内包邮",
+            "img":"https://www.xingchen9.com/yu/images/list7.jpg",
+            "imgText":"",
+            "shuoming":"现货48小时,预定5-7天",
+            "detail":"<p>美女店长电话：13022041584</p><img src='./yu/images/code.jpg' /><img src='https://www.xingchen9.com/yu/images/list8.jpg' />",
+            "ifPrice":true,
+            "zk":"折扣",
+            "detailName":"商品详情",
+            "meinv":"联系美女店长购买",
+            "imgList":[
+                {
+                    "id": 0,
+                    "type": "image",
+                    "url": "https://www.xingchen9.com/yu/images/list7.jpg"
+                }
+            ]
+        }
+    ],
+    "kefu":"https://ossweb-img.qq.com/images/lol/web201310/skin/big10006.jpg",
+    "info":{
+        "huanying":"欢迎定制蛋糕",
+        "huanying1":"点击此处联系美女店长就可以买到精美的蛋糕啦！还可以添加美女店长微信哦~！",
+        "huanying2":"购买蛋糕",
+        "huanying3":"折扣",
+        "fenxiang":"欢迎来到鱼家坊定制蛋糕哦~！"
+    }
+}

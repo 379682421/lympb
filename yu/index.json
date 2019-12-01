@@ -1,0 +1,109 @@
+{
+    "banner":[
+        {
+            "id": 0,
+            "type": "image",
+            "url": "https://hbimg.huabanimg.com/1b8fee8b073b48f87476de05d72ebd85d3f9f629160d6-yTvu0W_fw658"
+        },
+        {
+            "id": 1,
+            "type": "image",
+            "url": "https://hbimg.huabanimg.com/647470471b47950a71bceaebb0191cad8d72c8dc19d64-AwLLs0_fw658"
+        },
+        {
+            "id": 2,
+            "type": "image",
+            "url": "https://hbimg.huabanimg.com/50643ed1df975f6ff280d38664e4272c2f85cc6217233-BQsx6X_fw658"
+        }
+    ],
+    "list":[
+        {   
+            "name":"一个人的武侠",
+            "price":"武侠",
+            "baoyou":"武侠",
+            "img":"https://hbimg.huabanimg.com/04f4fb29b38e2259eb15b6fb92a5034877ca28df509f5-gZJPqD_fw658",
+            "imgText":"",
+            "shuoming":"很有诗画已经的武侠传说",
+            "detail":"<p>一个很有诗画已经的武侠图片我很喜欢！先收藏~！</p><br/><img src='https://hbimg.huabanimg.com/04f4fb29b38e2259eb15b6fb92a5034877ca28df509f5-gZJPqD_fw658' /><img src='https://hbimg.huabanimg.com/c9b41a06596b899fecfab6f720a70afc37d13e6b231dae-5lxCmp_fw658' /><img src='https://hbimg.huabanimg.com/0d57a40be0cf00311597b175be89ddb86ab2cb9b99faf-qU3OpE_fw658' />",
+            "ifPrice":false,
+            "zk":"经典",
+            "detailName":"相册内容",
+            "meinv":"",
+            "imgList":[
+                {
+                    "id": 0,
+                    "type": "image",
+                    "url": "https://hbimg.huabanimg.com/04f4fb29b38e2259eb15b6fb92a5034877ca28df509f5-gZJPqD_fw658"
+                }
+            ]
+        },
+        {   
+            "name":"落花迷醉夕阳红",
+            "price":"武侠",
+            "baoyou":"武侠",
+            "img":"https://hbimg.huabanimg.com/662fe1673ce2096d51af90ba3124160e55d989bb5e4b6-19AWu3_fw658",
+            "imgText":"",
+            "shuoming":"夕阳落日图",
+            "detail":"<p>夕阳无限好，只是渐黄昏！先收藏~！</p><br/><img src='https://hbimg.huabanimg.com/662fe1673ce2096d51af90ba3124160e55d989bb5e4b6-19AWu3_fw658' /><img src='https://hbimg.huabanimg.com/25a29b41e70e13934d63cd96cd01c66da22f4f203537b-SfPKW5_fw658' />",
+            "ifPrice":false,
+            "zk":"经典",
+            "detailName":"相册内容",
+            "meinv":"",
+            "imgList":[
+                {
+                    "id": 0,
+                    "type": "image",
+                    "url": "https://hbimg.huabanimg.com/662fe1673ce2096d51af90ba3124160e55d989bb5e4b6-19AWu3_fw658"
+                }
+            ]
+        },
+        {   
+            "name":"院前荷花舟",
+            "price":"唯美",
+            "baoyou":"唯美",
+            "img":"https://hbimg.huabanimg.com/6cdbfdd20fbe3d85055b97b05a2a0a4e237d6b25218385-g8JlRe_fw658",
+            "imgText":"",
+            "shuoming":"一副唯美画面",
+            "detail":"<p>采菊东篱下，悠然见南山！先收藏~！</p><br/><img src='https://hbimg.huabanimg.com/6cdbfdd20fbe3d85055b97b05a2a0a4e237d6b25218385-g8JlRe_fw658' />",
+            "ifPrice":false,
+            "zk":"唯美",
+            "detailName":"相册内容",
+            "meinv":"",
+            "imgList":[
+                {
+                    "id": 0,
+                    "type": "image",
+                    "url": "https://hbimg.huabanimg.com/6cdbfdd20fbe3d85055b97b05a2a0a4e237d6b25218385-g8JlRe_fw658"
+                }
+            ]
+        },
+        {   
+            "name":"龙争虎霸",
+            "price":"玄幻",
+            "baoyou":"玄幻",
+            "img":"https://hbimg.huabanimg.com/28e8b108206e097e586d8fb5265a9255e949a3e41055dd-P0BQt6_fw658",
+            "imgText":"",
+            "shuoming":"龙虎争霸图",
+            "detail":"<p>虎落平阳被犬欺！先收藏~！</p><br/><img src='https://hbimg.huabanimg.com/28e8b108206e097e586d8fb5265a9255e949a3e41055dd-P0BQt6_fw658' /><img src='https://hbimg.huabanimg.com/59de8bb0e7b4d09ae2ed7a386600eab458962ad8f52cb-akDCpR_fw658' /><img src='https://hbimg.huabanimg.com/1274311dd5111383aa8c9ef47517d80c122034554a7a0-Isaiwr_fw658' />",
+            "ifPrice":false,
+            "zk":"经典",
+            "detailName":"相册内容",
+            "meinv":"",
+            "imgList":[
+                {
+                    "id": 0,
+                    "type": "image",
+                    "url": "https://hbimg.huabanimg.com/28e8b108206e097e586d8fb5265a9255e949a3e41055dd-P0BQt6_fw658"
+                }
+            ]
+        }
+    ],
+    "kefu":"https://ossweb-img.qq.com/images/lol/web201310/skin/big10006.jpg",
+    "info":{
+        "huanying":"我的动漫相册",
+        "huanying1":"动漫，指动画与漫画的集合，取这两个词的第一个字合二为一称之为“动漫”，并非专业术语。",
+        "huanying2":"动漫卡通",
+        "huanying3":"相册",
+        "fenxiang":"欢迎来到鱼家坊观看动漫相册哦！"
+    }
+}

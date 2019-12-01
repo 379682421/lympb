@@ -1,0 +1,220 @@
+/* .tower-swiper .tower-item {
+    transform: scale(calc(0.5 + var(--index) / 10));
+    margin-left: calc(var(--left) * 100px - 150px);
+    z-index: var(--index);
+}
+
+.bl {
+    position: absolute;
+    left:0;
+    top:-100px;
+    width:100%;
+    height:100px;
+    z-index: 1;
+    mix-blend-mode: screen;
+}
+
+.contact_box {
+position: relative;
+}
+
+.contact_us {
+position: absolute;
+left:0;
+top:0;
+width:100%;
+height:100%;
+z-index: 1;
+background: transparent;
+}
+.contact_us::after {
+border:0;
+} */
+.slide {
+    height: 175px;
+}
+
+#swiper .swiper-slide img {
+    width: 100%;
+    height: 100%;
+
+}
+
+#swiper .swiper-slide {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.navbar {
+    padding: 11px 0 7px
+}
+
+.ui_box {
+    display: block;
+    overflow: hidden;
+}
+.ui_son {
+    display: block;
+    background-color: #fff;
+    overflow: hidden;
+    border-radius: 5px;
+    margin: 15px 0 30px;
+}
+
+.ui_son .image {
+    position: relative;
+}
+
+.image .son_img {
+    height:100%;
+    width: 100%;
+}
+.cu-tag {
+    font-size: 12px;
+    vertical-align: middle;
+    position: relative;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0px 8px;
+    height: 24px;
+    font-family: Helvetica Neue,Helvetica,sans-serif;
+    white-space: nowrap;
+    background: #0081ff;
+    color: #fff;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.cu-bar {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0,0,0,0);
+    padding: 0px 15px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    /* position: relative; */
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    min-height: 50px;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.text-cut {
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    color: #fff;
+}
+
+.cu-list.menu-avatar {
+    overflow: hidden;
+    background: #cccccc30;
+}
+
+.cu-list.menu-avatar>.cu-item {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding-right: 5px;
+    height: 70px;
+    background-color: var(--white);
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.cu-list.menu-avatar>.cu-item>.cu-avatar {
+    font-variant: small-caps;
+    margin: 0;
+    padding: 0;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    text-align: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #ccc;
+    color: var(--white);
+    white-space: nowrap;
+    position: relative;
+    width: 32px;
+    height: 32px;
+    background-size: cover;
+    background-position: 50%;
+    vertical-align: middle;
+    font-size: 1.5em;
+    border-radius: 2500px;
+    position: absolute;
+    left: 15px;
+    background: url("https://ossweb-img.qq.com/images/lol/web201310/skin/big10006.jpg");
+    width: 48px;
+    height: 48px;
+    font-size: 2em;
+    background-size:cover;
+}
+
+.cu-list.menu-avatar>.cu-item .content {
+    position: absolute;
+    left: 73px;
+    width: calc(100% - 48px - 30px - 60px - 10px);
+    line-height: 1.6em;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+.frp {
+    float: right;
+    font-size: 18px;
+    color: #e24545;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+
+.flp {
+    font-size: 16px;
+    padding-bottom: 4px;
+    color: #000;
+}
+
+.bg-shadeBottom {
+    background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(0,0,0,.01)),to(#000));
+    background-image: -o-linear-gradient(rgba(0,0,0,.01),#000);
+    /* background-image: linear-gradient(rgba(0,0,0,.01),#000); */
+    color: var(--white);
+}
